@@ -8,16 +8,10 @@ function memoize(fn) {
   const cache = {};
 
   return function (...args) {
-    //this is make ...args to string
     const key = args
       .map((arg) => {
-        if (typeof arg === "function") {
-          // If argument is a function, stringify its source code
-          return arg.toString();
-        } else {
-          // Otherwise, use default string conversion
-          return String(arg);
-        }
+        // default string conversion
+        return String(arg);
       })
       .join(",");
     //  console.log(key);
