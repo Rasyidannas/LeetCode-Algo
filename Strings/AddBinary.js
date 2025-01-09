@@ -1,6 +1,6 @@
 // Note rule of calculation binary
 // 0 + 0 = 0
-// 1 + 0 = 0
+// 1 + 0 = 1
 // 1 + 1 = 10
 // 11 + 1 = 100
 
