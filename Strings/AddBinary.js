@@ -1,7 +1,8 @@
 // Note rule of calculation binary
 // 0 + 0 = 0
-// 1 + 0 = 1
+// 1 + 0 = 1 -> this also for vise versa
 // 1 + 1 = 10
+// 1 + 1 + 1 = 11
 // 11 + 1 = 100
 
 var addBinary = function(a, b) {
